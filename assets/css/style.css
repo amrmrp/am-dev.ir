@@ -45,3 +45,57 @@ section p {
 .media-link:active {
   background-color: #e6e6e6;
 }
+
+
+/* Style for the Favorite Books section */
+.book-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.book-card {
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.book-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.book-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.book-info h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.book-info p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.book-card a:hover .book-info h3 {
+  color: #0073e6;
+}
