@@ -50,13 +50,13 @@ section p {
 /* Style for the Favorite Books section */
 .book-cards {
   display: flex;
-  justify-content: space-between;
+ /* justify-content: space-between; */
   gap: 20px;
   margin-top: 20px;
 }
 
 .book-card {
-  width: 30%;
+  width: 10%;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -69,14 +69,14 @@ section p {
 }
 
 .book-link {
-  display: block;
+ /* display: block; */
   text-decoration: none;
   color: inherit;
 }
 
 .book-image {
   width: 100%;
-  height: 250px;
+  height: 100%;
   object-fit: cover;
 }
 
